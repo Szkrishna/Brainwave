@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { notification1 } from "../assets";
 import { notificationImages } from "../constants";
 

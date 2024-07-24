@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { companyLogos } from "../constants";
 
 const CompanyLogos = ({ className }) => {
