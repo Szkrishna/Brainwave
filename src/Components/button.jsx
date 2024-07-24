@@ -1,7 +1,6 @@
 import ButtonSvg from '../assets/svg/ButtonSvg';
 
 const Button = ({ className, children, px, white, onClick }) => {
-    console.log('Button Props:', { className, px });
     const classes = `button relative infinite-flex item-center justify-center h-11 transition-colors
     hover: text-color-1 ${px || 'px-7'} ${white ? 'text-n-1' : 'text-n-8'} ${className || ''}`;
 
